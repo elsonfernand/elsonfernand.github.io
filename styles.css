@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400;600;900&display=swap');
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
+body {
+	font-family: 'Source Code Pro', monospace;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+.image-bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('https://i.sstatic.net/jJgjc.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: -1;
+	filter: grayscale(100%) opacity(5%) blur(5px);
+}
+
+.profile-picture {
+	width: 8rem;
+	height: 8rem;
+	border-radius: 9999px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.relative {
+	position: relative;
+}
+
+.z-10 {
+	z-index: 10;
+}
+
+.bg-opacity-75 {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.min-h-screen {
+	min-height: 100vh;
+}
+
+.content-wrapper {
+	position: relative;
+	z-index: 1;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+footer {
+	width: 100%;
+	margin-top: auto;
+}
