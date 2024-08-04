@@ -10,19 +10,21 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	padding: 0;
-	/* background image */
-	background-position: center center;
-	background-attachment: fixed;
-	background-repeat: no-repeat; background-size: cover;
-	z-index: -1;
 }
 
 .image-bg {
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
+	background-image: url('images/bg.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #0f0f0f;
+	z-index: -1;
 	-webkit-filter: grayscale(70%) opacity(50%) blur(7px);
 }
 
