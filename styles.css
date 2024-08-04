@@ -12,6 +12,11 @@ body {
 	padding: 0;
 }
 
+/* mobile phone */
+@media all and (max-width: 768px) {
+	overflow:auto; 
+}
+
 .image-bg {
 	position: fixed;
 	top: 0;
