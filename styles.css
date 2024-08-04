@@ -12,11 +12,6 @@ body {
 	padding: 0;
 }
 
-/* mobile phone */
-@media all and (max-width: 768px) {
-	overflow:auto; 
-}
-
 .image-bg {
 	position: fixed;
 	top: 0;
@@ -70,4 +65,30 @@ footer {
 	width: 100%;
 	margin-top: auto;
 	margin-bottom: 0;
+}
+
+/* content for mobile phone */
+@media all and (max-width: 768px) {
+     overflow:auto; 
+	}
+
+/* background image for mobile phone */
+@media (max-width: 480px) {
+	.image-bg {
+		background-image: url('bg.png');
+	}
+}
+
+/* background image for tablets */
+@media (min-width: 481px) and (max-width: 1024px) {
+	.image-bg {
+        background-image: url('bg.png');
+    }
+}
+
+/* background image for desktop */
+@media (min-width: 1025px) {
+	.image-bg {
+        background-image: url('bg.png');
+   }
 }
