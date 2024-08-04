@@ -18,7 +18,6 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url('bg.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -74,21 +73,21 @@ footer {
 
 /* background image for mobile phone */
 @media (max-width: 480px) {
-	body {
+	.image-bg {
 		background-image: url('bg.png');
 	}
 }
 
 /* background image for tablets */
 @media (min-width: 481px) and (max-width: 1024px) {
-	body {
+	.image-bg {
         background-image: url('bg.png');
     }
 }
 
 /* background image for desktop */
 @media (min-width: 1025px) {
-	body {
+	.image-bg {
         background-image: url('bg.png');
    }
 }
