@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400;600;900&display=swap');
 @import "https://www.nerdfonts.com/assets/css/webfont.css";
 
-body {
+body, html {
 	font-family: 'Source Code Pro', monospace;
 	position: relative;
 	overflow: auto;
@@ -13,7 +13,7 @@ body {
 }
 
 .image-bg {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -25,7 +25,7 @@ body {
 	background-size: cover;
 	background-color: #0f0f0f;
 	z-index: -1;
-	-webkit-filter: grayscale(70%) opacity(50%) blur(7px);
+	filter: grayscale(70%) opacity(50%) blur(7px);
 }
 
 .profile-picture {
@@ -69,28 +69,10 @@ footer {
 	margin-bottom: 0;
 }
 
-/* content for mobile phone */
-@media all and (max-width: 768px) {
-     overflow:auto; 
+/* Ajustes para diferentes tamanhos de tela */
+@media (max-width: 768px) {
+	.image-bg {
+		background-image: url('images/bg.png');
+		background-size: cover;
 	}
-
-/* background image for mobile phone */
-@media (max-width: 480px) {
-	.image-bg {
-		background-image: url('images/bg-mobile.png');
-	}
-}
-
-/* background image for tablets */
-@media (min-width: 481px) and (max-width: 1024px) {
-	.image-bg {
-        background-image: url('images/bg-tablet.png');
-    }
-}
-
-/* background image for desktop */
-@media (min-width: 1025px) {
-	.image-bg {
-        background-image: url('images/bg.png');
-   }
 }
