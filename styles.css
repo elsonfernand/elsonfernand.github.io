@@ -13,7 +13,6 @@ body {
 }
 
 .image-bg {
-	background-image: url('images/bg.png');
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -77,7 +76,6 @@ footer {
 @media (max-width: 480px) {
 	.image-bg {
 	background-image: url('images/bg-mobile.png');
-	z-index: -1;
 	}
 }
 
@@ -85,7 +83,6 @@ footer {
 @media (min-width: 481px) and (max-width: 1024px) {
 	.image-bg {
         background-image: url('images/bg-tablet.png');
-	z-index: -1;
     }
 }
 
@@ -93,6 +90,5 @@ footer {
 @media (min-width: 1025px) {
 	.image-bg {
         background-image: url('images/bg.png');
-	z-index: -1;
    }
 }
