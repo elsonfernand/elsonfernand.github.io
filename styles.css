@@ -74,21 +74,21 @@ footer {
 
 /* background image for mobile phone */
 @media (max-width: 480px) {
-	.image-bg {
+	body {
 		background-image: url('bg.png');
 	}
 }
 
 /* background image for tablets */
 @media (min-width: 481px) and (max-width: 1024px) {
-	.image-bg {
+	body {
         background-image: url('bg.png');
     }
 }
 
 /* background image for desktop */
 @media (min-width: 1025px) {
-	.image-bg {
+	body {
         background-image: url('bg.png');
    }
 }
