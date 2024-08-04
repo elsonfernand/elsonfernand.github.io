@@ -13,13 +13,14 @@ body {
 }
 
 .image-bg {
+	background-image: url('bg.png');
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	background-size: cover;
-	background-position: center;
+	background-position: center center;
 	background-repeat: no-repeat;
 	z-index: -1;
 	-webkit-filter: grayscale(70%) opacity(15%) blur(3px);
@@ -75,49 +76,19 @@ footer {
 @media (max-width: 480px) {
 	.image-bg {
 		background-image: url('bg.png');
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-size: cover;
-		background-position: center center;
-		background-repeat: no-repeat;
-		z-index: -1;
-		-webkit-filter: grayscale(70%) opacity(15%) blur(3px);
 	}
 }
 
 /* background image for tablets */
 @media (min-width: 481px) and (max-width: 1024px) {
 	.image-bg {
-		background-image: url('bg.png');
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-size: cover;
-		background-position: center center;
-		background-repeat: no-repeat;
-		z-index: -1;
-		-webkit-filter: grayscale(70%) opacity(15%) blur(3px);
-	}
+        background-image: url('bg.png');
+    }
 }
 
 /* background image for desktop */
 @media (min-width: 1025px) {
 	.image-bg {
-		background-image: url('bg.png');
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-size: cover;
-		background-position: center center;
-		background-repeat: no-repeat;
-		z-index: -1;
-		-webkit-filter: grayscale(70%) opacity(15%) blur(3px);
-	}
+        background-image: url('bg.png');
+   }
 }
