@@ -10,7 +10,7 @@ body, html {
 	min-height: 100vh;
 	margin: 0;
 	padding: 0;
-	background-color: rgba(0, 0, 0, 0.75);
+	background-color: rgba(0, 0, 0, 0.5);
 	color: white;
 	
 }
@@ -26,7 +26,7 @@ body, html {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	background-color: #0f0f0f;
+	background-color: rgba(0, 0, 0, 0.7);
 	z-index: -1;
 	filter: grayscale(70%) opacity(100%) blur(5px);
 }
@@ -112,21 +112,11 @@ body, html {
 .sites-icons {
 	padding: 2px;
 	color: white;
-	transition: 250ms ease; 
-}
-
-.sites-icons:hover {
-	color: rgba(255,255,255,0.7);
 }
 
 .redes-icons {
 	opacity: 70%;
 	color: white;
-	transition: 250ms ease; 
-}
-
-.redes-icons:hover {
-	transform: translateY(-7px) scale(1.2);
 }
 
 footer {
