@@ -4,7 +4,7 @@
 body {
 	font-family: 'Source Code Pro', monospace;
 	position: relative;
-	overflow-y: scroll;
+	overflow: scroll;
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
