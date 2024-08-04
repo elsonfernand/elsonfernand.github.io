@@ -17,16 +17,14 @@ body, html {
 
 .image-bg {
 	position: fixed;
-	top: 0;
-	left: 0;
 	width: 100%;
 	height: 100%;
 	background-image: url('images/bg.png');
-	background-position: top 0px left 0px;
+	background-position: top 0px left -5px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.5);
 	z-index: -1;
 	filter: grayscale(70%) opacity(100%) blur(5px);
 }
@@ -41,7 +39,7 @@ body, html {
 }
 
 .topo {
-	padding-top: 10px;
+	padding: 10px;
 	color: white;
 	position: relative;
 	z-index: 10;
