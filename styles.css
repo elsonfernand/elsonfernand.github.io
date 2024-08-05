@@ -10,8 +10,9 @@ body, html {
 	min-height: 100vh;
 	margin: 0;
 	padding: 0;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 1);
 	color: white;
+	z-index: -2;
 	
 }
 
@@ -20,14 +21,20 @@ body, html {
 	width: 100%;
 	height: 100%;
 	background-image: url('images/bg.png');
-	background-position: top 0px left -5px;
+	background-position: top 0px left 4rem;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 1);
 	z-index: -1;
-	filter: grayscale(70%) opacity(100%) blur(5px);
+	filter: grayscale(70%) opacity(90%) blur(3px);
+	transform: scale(1.1);
 }
+
+a {
+	text-decoration: none;
+}
+
 
 .profile-picture {
 	width: 8rem;
@@ -43,7 +50,7 @@ body, html {
 	color: white;
 	position: relative;
 	z-index: 10;
-	background-color: rgba(0, 0, 0, 0.75);
+	background-color: rgba(0, 0, 0, 0.9);
 }
 
 .sites {
@@ -110,11 +117,21 @@ body, html {
 .sites-icons {
 	padding: 2px;
 	color: white;
+	transition: 250ms ease; 
+}
+
+.sites-icons:hover {
+	color: rgba(23,147,209,1); /* Cor azul do logotipo do Arch Linux*/
 }
 
 .redes-icons {
 	opacity: 70%;
 	color: white;
+	transition: 250ms ease; 
+}
+
+.redes-icons:hover {
+	transform: translateY(-7px) scale(1.2);
 }
 
 footer {
